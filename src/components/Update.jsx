@@ -31,7 +31,7 @@ const Update = () => {
     e.preventDefault();
 
     const updateUser = { name, email, age };
-    const response = await fetch(`https://mern-crud-app-backend-capv.onrender.com${id}`, {
+    const response = await fetch(`https://mern-crud-app-backend-capv.onrender.com/${id}`, {
       method: "PUT",
       body: JSON.stringify(updateUser),
       headers: {
