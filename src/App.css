@@ -1,12 +1,6 @@
 /* App.css */
 .App {
-  display: grid; /* Use grid layout for overall structure */
-  grid-template-columns: 1fr; /* Single column for small screens */
-  min-height: 100vh; /* Set minimum height for full viewport */
+  text-align:center;
 }
 
-@media (min-width: 768px) { /* Adjust breakpoint for larger screens */
-  .App {
-    grid-template-columns: 200px 1fr; /* Two columns for medium+ screens */
-  }
-}
+
