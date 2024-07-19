@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  .navbar-collapse {
+    /* Styles for smaller screens */
+    justify-content: center; /* Center links on smaller screens */
+  }
+}
