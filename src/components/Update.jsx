@@ -10,7 +10,7 @@ const Update = () => {
   const { id } = useParams();
 
   const getSingleUser = async () => {
-    const response = await fetch(`https://mern-crud-app-backend-kohl.vercel.app/${id}`);
+    const response = await fetch(`https://mern-crud-app-backend-capv.onrender.com/${id}`);
     const result = await response.json();
 
     if (!response.ok) {
