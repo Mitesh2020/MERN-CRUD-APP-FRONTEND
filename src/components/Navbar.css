@@ -1,10 +1,6 @@
 /* navbar.css */
 @media (max-width: 768px) {
-  .navbar-collapse {
-    justify-content: center; /* Center links on smaller screens */
-  }
-
-  .nav-link {
-    font-size: font-size-sm; /* Use Bootstrap's responsive utility */
+  .navbar-collapse.collapse {
+    display: block !important; /* Force display on collapse */
   }
 }
