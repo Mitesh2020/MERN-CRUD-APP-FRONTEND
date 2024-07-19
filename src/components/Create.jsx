@@ -11,7 +11,7 @@ const Create = () => {
     e.preventDefault();
 
     const addUser = { name, email, age };
-    const response = await fetch("https://mern-crud-app-backend-kohl.vercel.app/", {
+    const response = await fetch("https://mern-crud-app-backend-d0aq.onrender.com", {
       method: "POST",
       body: JSON.stringify(addUser),
       headers: {
