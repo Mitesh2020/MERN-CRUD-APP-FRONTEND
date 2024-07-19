@@ -7,7 +7,7 @@ const Read = () => {
   const [error, setError] = useState("");
 
   async function getData() {
-    const response = await fetch("https://mern-crud-app-backend-kohl.vercel.app/");
+    const response = await fetch("https://mern-crud-app-backend-d0aq.onrender.com");
     const result = await response.json();
 
     if (!response.ok) {
@@ -21,7 +21,7 @@ const Read = () => {
   }
 
   const handleDelete = async (id) => {
-    const response = await fetch(`https://mern-crud-app-backend-kohl.vercel.app/${id}`, {
+    const response = await fetch(`https://mern-crud-app-backend-d0aq.onrender.com/${id}`, {
       method: "DELETE",
     });
 
