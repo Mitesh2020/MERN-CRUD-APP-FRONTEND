@@ -1,8 +1,0 @@
-@media (max-width: 768px) {
-  .navbar-nav {
-    /* Styles for navigation links on smaller screens */
-    flex-direction: column; /* Stack links vertically */
-    align-items: center; /* Center links horizontally */
-    margin-top: 1rem; /* Add some margin for better spacing */
-  }
-}
